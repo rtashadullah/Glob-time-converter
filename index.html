@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 <title>Global Time Converter</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="container">
-  <h1>🌍 Global Time Converter</h1>
-  <p class="subtitle">Bangladesh Time → World Clock</p>
+
+  <div class="header">
+    <h1>🌍 Global Time Converter</h1>
+    <p>Bangladesh Time → World Clock</p>
+  </div>
 
   <input type="datetime-local" id="bdTime">
   <button onclick="convertTime()">Convert Time</button>
 
   <div id="results"></div>
+
 </div>
 
 <script src="script.js"></script>
